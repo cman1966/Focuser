@@ -1,0 +1,28 @@
+Project box must support:
+- LED		Drill hole in top of box
+- USB		Drill hole in end of box; alternatively, leave USB plugged in all the time...
+- Access to enabling/disabling capacitor	from top?
+- wires for motor (6-wire, phone cable?)
+- Wires for temperature (3-wire)
+
+Connector ideas:
+----------------
+DB9					- easy, supports motor and temperature; inflexible cable
+Phone (6p6c, rj11)	- small, motor only
+
+
+Strain relief
+
+
+todo:
+----
+- hole for usb in main box
+- hole for LED in lid, solder LED
+- plug for capacitor, solder capacitor
+
+- decide on motor box
+- cut hole for db9 on motor box
+- solder db9 to motor board and temperature sensor
+
+-- temperature sensor on motor box or main box?
+-- use 9v for VIN? if so, power for unl9003 sb from 9v, not 5v from board
